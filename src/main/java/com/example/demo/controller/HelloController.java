@@ -11,4 +11,9 @@ public class HelloController {
     public String sayHello() {
         return "Hello there !!!!!!!!!";
     }
+
+    @RequestMapping(value = "/bye", method = RequestMethod.GET)
+    public String sayBye() {
+        return "Bye folks, c u you soon !!!!!!!!!";
+    }
 }
