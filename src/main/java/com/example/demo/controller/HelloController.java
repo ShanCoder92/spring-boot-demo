@@ -9,11 +9,11 @@ public class HelloController {
 
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
     public String sayHello() {
-        return "Hello there !!!!!!!!!!";
+        return "Hello there !!!!!!!!!!!!!!!!";
     }
 
     @RequestMapping(value = "/bye", method = RequestMethod.GET)
     public String sayBye() {
-        return "Bye folks, c u you soon !!!!!!!!!!";
+        return "Bye folks, c u you soon !!!!!!!!!!!!!!!!!!";
     }
 }
